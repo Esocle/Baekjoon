@@ -1,5 +1,2 @@
-arr = []
-for e in range(9):
-    arr.append(int(input()))
-print(max(arr))
-print(arr.index(max(arr))+1)
+arr = [int(input()) for i in range(9)]
+print(max(arr), arr.index(max(arr))+1)
